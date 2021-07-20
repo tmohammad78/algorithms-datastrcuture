@@ -47,6 +47,7 @@ Node* insertNode(Node* root , int data){
             return root;
         }
     }
+    return root;
 }
 
 int main(){
@@ -57,5 +58,10 @@ int main(){
     root->right->right = createNode(8);
     root->right->left = createNode(15);
     inorder(root);
+    int key = 12;
+    root = insertNode(root, key);
+    cout << "Inorder traversal after insertion: ";
+    inorder(root);
+    cout << endl;
     return 0;
 }
