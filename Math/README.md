@@ -20,6 +20,10 @@ So we want check number one hundred [solution](#number2)
 ### 3) smallest number divisible by each of the numbers 1 to 20? 
 
 sample : 1 to 10 , we have 2520 ,this number has no remainder
+
+### 4) Find 10001th of prime number 
+6th prime number is 13 [solution](#number4)
+
 [solution](#number3)
 
 
@@ -41,3 +45,9 @@ and for square number we have :  n*(n+1)*(2n+1) /6
 For this question , I didn't write any code , just we should try multiple number of 1 to 20 and use prime factorisation for numeber 20 :
 
 2^4 * 3^2 * 5 * 7 * 11 * 13 * 17 * 19 = 232,792,560 
+
+
+### <span id="number4"> 4) Find 10001th of prime number </span>
+
+For solve this problem we can use Sieve of Eratosthenes for finding prime number and after that 
+we can set a long number and store primes in array and return by index 10000
