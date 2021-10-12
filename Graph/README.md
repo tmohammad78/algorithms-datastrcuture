@@ -18,3 +18,14 @@ when we start with first node , we delete it and write nodes that are connected 
 ### Usages 
 * Job-shop scheduling
 * Shorted path 
+
+
+### BackTracking
+
+#### Questions
+- n-Queen’s Problem
+- find a path more than k 
+- Rat in the maze 
+- m coloring
+- Hamiltonian Cycle
+
