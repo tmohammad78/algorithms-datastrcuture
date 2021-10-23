@@ -2,6 +2,8 @@
 
 This is sample repository for my algorithm and DS learning , I'm going to practice some popular algorithm , I write with cpp because It's better for algorithm learning and I grow up my perspective about this language .
 
+
+Leetcode questions and hackerRank
 ## Data structure
 - Array
 - Tree
