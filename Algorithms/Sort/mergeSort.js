@@ -12,7 +12,6 @@ const combineArr = (leftOne,rightOne) => {
         j++;
         }
     }
-    console.log(leftOne,leftOne.slice(i),'this is ')
     return mergedArr.concat(leftOne.slice(i)).concat(rightOne.slice(j))
 }
 const mergSort = (arr) => {
